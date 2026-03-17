@@ -1,0 +1,63 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+}
+
+a{
+    color: black;
+    font-size: 80px;
+    margin: 10px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+
+b{
+    width: 127px;
+    color: grey;
+    font-size: 30px;
+    margin: 10px;
+    display: block;
+    outline: 2px solid grey;
+}
+
+c{
+
+    color: white;
+    width: 175px;
+    font-size: 57px;
+    margin: 10px;
+    display: block;
+    background-color: rgb(21, 116, 240);
+    padding: 10px;
+    border-radius: 8px;
+    border-width: 10px;
+}
+
+b:hover{
+    display: flex;
+    flex-direction: columnl
+}
+
+input {
+    opacity {
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+b:hover input{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+input:focus{
+    border: 2px grey;
+    outline: none;
+    box-shadow: 0 0 8px grey;
+}
+
+input:placeholder{
+    color: black;
+}
